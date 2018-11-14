@@ -424,6 +424,7 @@ void loadEncryptedDll()
 
 	cout << "press key to unload it" << endl;
 	cin.get();
+	cin.get();
 
 	MemoryFreeLibrary(hMemModule);
 
